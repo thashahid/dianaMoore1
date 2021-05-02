@@ -1,0 +1,123 @@
+.header {
+  height: 250px;
+  width: 100%;
+  background-color:	#003153;
+  color: white;
+}
+header img {
+  margin: 50px 0 0 10px;
+}
+header h3 {
+  margin: -100px 0 0 110px;
+}
+header h5 {
+  margin: 10px 0 0 110px;
+}
+.demopadding {
+  margin:20px 0 0 110px;
+  width:auto;
+  text-align:center;
+}
+.icon {
+	position:relative;
+	text-align:center;
+	width:0px;
+	height:0px;
+	padding:15px;
+	border-top-right-radius: 	15px;
+	border-top-left-radius: 	15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 	15px; 
+	-moz-border-radius: 		20px 20px 20px 20px;
+	-webkit-border-radius: 		20px 20px 20px 20px;
+	-khtml-border-radius: 		20px 20px 20px 20px; 	
+	color:#FFFFFF;
+}
+.icon i {
+	font-size:15px;
+	position:absolute;
+	left:9px;
+	top:10px;
+}
+.icon.social {
+	float:left;
+  size: 10px;
+	margin:0 5px 0 0;
+	cursor:pointer;
+	background:white ;
+	color:#104cf3;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+.icon.social:hover {
+	background:#0e1df0 ;
+	color:#6d6e71;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));	 	
+}
+.icon.social.fb i {
+	left:10px;
+	top:7px;
+}
+.icon.social.tw i {
+	left:10px;
+  top:7px;
+}
+.icon.social.in i {
+	left:10px;
+  top:7px;
+}
+.icon.social.google i {
+	left:10px;
+  top:7px;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  border-radius: 50px;
+  padding: 6px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+p {
+  margin: 0 150px 0 0;
+  float: right;
+}
+
+ul li {
+	display: inline;
+	margin: 30px;
+	margin-left: -5px;
+}
+#p2 {
+	
+	float: right;
+}
+hr {
+	opacity: .2;
+}
+.table {
+	width: 100%;
+}
+.tr1 {
+	margin-left: 30px;
+}
+.eduicon {
+	margin-top: 40px;
+}
+h4 {
+	margin: -34px -80px 0 60px;
+	font-size: 24px;
+}
+
