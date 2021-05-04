@@ -1,3 +1,6 @@
+body{
+	
+}
 .header {
   height: 250px;
   width: 100%;
@@ -91,11 +94,15 @@ header h5 {
   font-size: 14px;
 }
 p {
+  font-size: 14px;
+  font-family: sans-serif;
   margin: 0 150px 0 0;
+  font-weight: 300;
   float: right;
+  opacity: .7;
 }
 
-ul li {
+header ul li {
 	display: inline;
 	margin: 30px;
 	margin-left: -5px;
@@ -109,6 +116,7 @@ hr {
 }
 .table {
 	width: 100%;
+	text-justify: inherit;
 }
 .tr1 {
 	margin-left: 30px;
@@ -120,4 +128,143 @@ h4 {
 	margin: -34px -80px 0 60px;
 	font-size: 24px;
 }
+.timeline {
+	max-width: 900px;
+	margin: 0 auto;
+}
 
+.timeline-container {
+	font-family: sans-serif;
+	margin: 30px;
+	border-left: 4px solid #222;
+	padding-left: 25px;
+  }
+  
+  .timeline-container h3 {
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-left: 0;
+	color: #00272b;
+  }
+  
+  .timeline-container .event {
+	margin: 48px 0 0;
+	position: relative;
+	max-width: 1200px;
+  }
+  
+  .timeline-container .event::before {
+	content: "";
+	width: 14px;
+	height: 14px;
+	border: 2px solid #000;
+	position: absolute;
+	left: -36px;
+	border-radius: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+	background: #fff;
+	
+  }
+  p {
+	  text-justify: auto;
+	  
+  }
+  #uni {
+	  text-align: left;
+  }
+#eduicon {
+	  margin-top: 40px;
+	  margin-bottom: -10px;
+  }
+  h2 {
+	  font-size: 20px;
+  }
+
+ 
+
+
+  #skills {
+	  margin: 70px 0 0 0;
+  }
+  #skills span{
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+}
+.pl {
+  float: left;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.pr {
+  float: right;
+  font-weight: bold;
+}
+
+progress {
+    background-color: #000;
+    border: 0;
+    height: 1em;
+    width: 100%;
+	margin: 15px 0 15px 30px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0eaf0;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(21, 180, 21);
+    border-radius: 0 80px 80px 0;
+}
+
+progress::-moz-progress-bar {
+    background-color: green;
+}
+  
+  
+
+
+#footer {
+ 	height: 300px;
+  	width: 100%;
+ 	background-color:	#003153;
+  	color: white;
+}
+#footer h5 {
+	margin: 40px 0 0 30px;
+	font-size: 15px;
+	
+}
+#footer p {
+	float: left;
+	width: 350px;
+	margin: 40px 0 0 30px;
+}
+form input {
+	background: transparent;
+	border: 1px solid white;
+	border-radius: 30px;
+	height: 30px;
+  }
+ #footer button {
+	border: 1px solid white;
+	border-radius: 30px;
+	height: 30px;
+	width: 30px;
+	background-color: green;
+  }
+  .col1 {
+	float: left;
+  }
+  .col2 {
+	  float: middle;
+  }
+  .col3 {
+	  float: right;
+  }
